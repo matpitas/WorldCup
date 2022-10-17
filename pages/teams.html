@@ -20,59 +20,26 @@
         }
 
 
-        
-        @keyframes Blur {
-            0% {filter: none;}
-            50% {filter: blur(7px);}
-            100%{filter: none;}
-            }
-         
-
-
         ::-webkit-scrollbar{
             display: none;
         }
-        
-        .cardContent{
-            display: flex;
-            justify-content: center;
-            align-items: center;
 
-            
+        img{
+            width: 100%;
+            height: 100%;
         }
         
-
-        #imgMinha{
-            animation-name: Blur;
-            animation-duration: 8s;
-            animation-iteration-count: infinite;
-        }
 
     </style>
 </head>
 <body class="bg-dark">
-
     <div class="container">
         <a href="../index.html"><button class="btn btn-outline-danger fs-4 my-5 p-4 w-100">Voltar para Home</button></a>
+        <img src="../assets/schedule.jpg" alt="">
     </div>
+            
     
 
-    <div class="container text-white text-center">
-        <h1 style="font-size: 60px; font-weight:Bold;">Copa do Mundo 2022</h1>
-        <p style="font-size: 20px;">Este site tem o intuito de apresentar um trabalho sobre a copa do mundo de 2022 para a disciplina de Programação Web ministrada pelo professor Anderson Pazin.</p>
-        <span class="fs-3 text-danger">Integrantes:</span>
-        <div class="cardContent text-danger">
-            <div class="card mt-5 w-50 h-50">
-                <img class="card-img-top " id="imgMinha" src="../assets/eu.jpg" alt="Card image cap">
-                <div class="card-body">
-                <h5 class="card-title fs-2">Matheus Pitas Baptista</h5>
-                <span>Análise e Desenvolvimento de Sistemas</span>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
